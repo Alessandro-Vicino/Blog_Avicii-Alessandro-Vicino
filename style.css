@@ -1,0 +1,98 @@
+
+/* Css Navbar */
+
+.nav{
+    background-color: black;
+    padding: 0;
+}
+
+.icon-nav{
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    justify-content: space-around ;
+}
+
+/* Css Header */
+
+.img-header{
+    width: 100wh;
+    background-image: url(/images/header.jpeg);
+    height: 100vh;   
+    background-size: cover;
+    
+}
+
+/* Css animazione scritta header */
+
+.text-header{
+animation-name: title;
+animation-duration: 2s;
+animation-iteration-count: 1;
+}
+
+@keyframes title {
+
+    0% {
+opacity: 0;
+}
+
+    100%{
+opacity: 1;
+}
+}
+
+/* Css carousel */
+
+.img-carousel{
+
+height: 30vh;
+
+}
+
+.section-icon{
+
+height: 40vh;
+
+}
+
+/* Css card */
+
+.card{
+    border-radius: 0%;
+    background-color: black;
+    
+}
+
+.symbol{
+    justify-content: space-around;
+}
+
+.card-body{
+    padding: 0%;
+}
+
+.card-title{
+    color: white;
+    font-family: 'Satisfy', cursive;
+    
+}
+
+.card-text{
+    color: white;
+}
+
+.section-footer{
+    height: 30vh;
+}
+
+.img-game{
+    
+    justify-content: start;
+}
+
+.title-game{
+    justify-content:center;
+    align-items: center;
+    color:aliceblue;
+}
